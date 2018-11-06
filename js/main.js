@@ -47,7 +47,7 @@ function printQuestions() {
         correct = 0;
         return false;
     }
-    _("testStatus").innerHTML = "Questions " + (position + 1) + " of " + questions.length;
+    _("testStatus").innerHTML = "Question " + (position + 1) + " of " + questions.length;
     // Get questions/answers values and put them into variables
     question = questions[position][0];
     answerA = questions[position][1];
