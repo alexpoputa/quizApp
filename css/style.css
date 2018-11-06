@@ -1,0 +1,98 @@
+* {
+    outline: 0 !important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/a1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.row {
+    text-align: center;
+}
+
+div#test{
+    color:#fff;
+    margin: 0 auto;
+    width: 250px;
+    border:#000 2px solid;
+    border-radius: 5%;
+    box-shadow: #000 1px 5px 5px 1px;
+    padding:10px 40px 40px 40px;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+     animation: fadein 3s;
+}
+
+h1 {
+    color:rgb(238, 238, 238);
+    font-size: 50px;
+    text-shadow: 3px 0 black, 0 5px black, 2px 0 black, 0 5px black;
+}
+
+ h2{
+     color:#fff;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 200px;
+    padding: 15px;
+   border: 2px solid black;
+   border-radius: 5%;
+   margin-bottom: 25px;
+   margin-top: 25px;
+   box-shadow: #000 1px 3px 3px 1px;
+   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+   -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+button {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px 10px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,1);
+    font: normal 19px/1 "Acme", Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: transparent;
+    -webkit-box-shadow: 3px 3px 0 0 rgba(0,0,0,08) ;
+    box-shadow: 3px 3px 0 0 rgba(0,0,0,08) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,02) ;
+    border-radius: 5%;
+  }
+  
+  button:active {
+    margin: 3px 0 0 3px;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.8) ;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.8) ;
+}
+
+button:hover {
+    color: #fff;
+    background: rgb(151, 151, 151);
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
